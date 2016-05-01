@@ -3,18 +3,18 @@ require 'mina/rails'
 require 'mina/git'
 require 'mina/rvm'
 
-set :ruby_version, '2.2.1'
+set :ruby_version, ''
 
 # Repository project
-set :repository, 'git@github.com:luizpicolo/sample_mina_deploy.git'
+set :repository, ''
 
 # Server Production
 task :production do
-  set :rails_env, 'production'
-  set :user, 'picolo'
-  set :domain, '192.168.1.87'
-  set :deploy_to, '/home/picolo/public_html/railsapp'
-  set :branch, 'master'
+  set :rails_env, ''
+  set :user, ''
+  set :domain, ''
+  set :deploy_to, ''
+  set :branch, ''
 end
 
 # Server Staging
